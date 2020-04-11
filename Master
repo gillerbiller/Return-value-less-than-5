@@ -1,0 +1,6 @@
+aList = [11,2,8,4,1.5,4,3,5,77,1,10,2,3,3]
+newList = []
+for item in aList:
+    if item < 5:
+        newList.append(item)
+print(newList)
